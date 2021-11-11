@@ -1,6 +1,6 @@
 package actividad4;
 
-public class Hilo2 implements Runnable{
+public class Posicion implements Runnable{
 
 	@Override
 	public void run() {

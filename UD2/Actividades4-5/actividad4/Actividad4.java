@@ -3,8 +3,8 @@ package actividad4;
 public class Actividad4 {
 	public static void main(String[] args) {
 		//Creacion de los 2 hilos
-		Thread p = new Thread(new Hilo2());
-		Thread s = new Thread(new Hilo2()); 
+		Thread p = new Thread(new Posicion());
+		Thread s = new Thread(new Posicion()); 
 		
 		//Les asignamos un nombre
 		p.setName("Primero");
